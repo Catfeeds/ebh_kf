@@ -1,0 +1,96 @@
+.jquerymessage{
+	 position: absolute;
+	 z-index:10000; 
+	 display: none;
+}
+
+.jquerymessage td.pop_topleft, .jquerymessage td.pop_topright, .jquerymessage td.pop_bottomleft, .jquerymessage td.pop_bottomright{
+	height:8px;
+	overflow:hidden;
+	padding:0 !important;
+	width:10px !important;
+}
+
+.jquerymessage td.pop_topleft {
+	background-image:url("images/pop_dialog_top_left.png");
+}
+.jquerymessage td.pop_topright {
+	background-image:url("images/pop_dialog_top_right.png");
+}
+.jquerymessage td.pop_bottomleft {
+	background-image:url("images/pop_dialog_bottom_left.png");
+}
+.jquerymessage td.pop_bottomright {
+	background-image:url("images/pop_dialog_bottom_right.png");
+}
+
+.jquerymessage td.pop_border{
+	background-image:url("images/pop_dialog_border.png");
+}
+
+.jquerymessage td.pop_content h2 span{
+	display:block;
+	padding:4px 10px 5px;
+	font-size:14px;
+	line-height:normal;
+}
+
+.jquerymessage h2{
+	background:none repeat scroll 0 0 #3777BC;
+	/*background:none repeat scroll 0 0 #FD5300;*/
+	border:1px solid #005EAC;
+	color:white;
+	float:none !important;
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	position:relative;
+	height:20px;
+}
+
+.jquerymessage td.pop_content .message_content{
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-color:#005EAC;
+	border-right:1px solid #005EAC;
+	border-style:solid;
+	border-width:0 1px 1px;
+	min-height:60px;
+	_height:60px;
+}
+.jquerymessage td.pop_content .message_body{
+	border-bottom:1px solid #CCCCCC;
+	font-size: 16px;
+    font-weight: bold;
+	padding: 20px 10px 10px;
+	min-height:60px;
+	_height:60px;
+	text-align: left;
+}
+
+.jquerymessage td.pop_content .success{
+	background:url("images/success.jpg") no-repeat scroll 10px 19px white;
+
+}
+.jquerymessage td.pop_content .success .message_body{
+margin-left: 30px;
+}
+.jquerymessage td.pop_content .error{
+	background:url("images/failure.jpg") no-repeat scroll 10px 19px white;
+
+}
+.jquerymessage td.pop_content .error .message_body{
+margin-left: 30px;
+}
+
+.jquerymessage td.pop_content .message_body p{
+	min-height:60px;
+	_height:60px;
+	overflow:hidden;
+}
+.jquerymessage td.pop_content .message_body strong{
+	min-height:40px;
+	_height:50px;
+	overflow:hidden;
+	word-wrap:break-word;
+	display:block;
+}

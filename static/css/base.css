@@ -1,0 +1,86 @@
+/* margin & padding */
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td,table,img{margin:0;padding:0;}
+/* border */
+fieldset, img{border:0}
+/* outline */
+:focus{outline:0}
+address, caption, cite, code, dfn,
+em, strong, th, var, optgroup{font-style:normal;font-weight:normal}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal}
+input, button, textarea,select, optgroup, option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+code, kbd, samp, tt{ font-size:100%}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select{*font-size:100%}
+ol, ul{list-style:none}
+/* quote */
+abbr, acronym{border:0;font-variant:normal}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select{*font-size:100%}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins{text-decoration:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+/* color */
+.cRed, a.cRed:link, a.cRed:visited{color:Red;font-family:宋体}
+.cWhite, a.cWhite:link, a.cWhite:visited{color:White}
+.cBlue, a.cBlue:link, a.cBlue:visited{color:#06c}
+.cBlack, a.cBlack:link, a.cBlack:visited{color:Black}
+/* font */
+.fB{font-weight:bold}
+.fI{font-style:italic}
+.fN{font-style:normal} 
+
+.f10{font-size:10px}
+.f12{font-size:12px}
+.f14{font-size:14px}
+.f16{font-size:16px}
+.f18{font-size:18px}
+.f20{font-size:20px}
+.f22{font-size:22px}
+
+.txtLft{text-align:left}
+.txtCtr{text-align:center}
+.txtRgt{text-align:right}
+/* float */
+.lft{float:left;display:inline}
+.rgt{float:right;display:inline}
+.clear{clear:both;display:block}
+/* margin */
+.ML_5{margin-left:5px}
+.MT_5{margin-top:5px}
+.MR_5{margin-right:5px}
+.MB_5{margin-bottom:5px}
+.MC_10{margin:0 10px}
+.MM_10{margin:10px 0}
+.MT_10{margin-top:10px}
+.ML_10{margin-left:10px}
+.MR_10{margin-right:10px}
+.MB_10{margin-bottom:10px}
+/* padding */
+.PB_5{padding-bottom:5px}
+.PR_5{padding-right:5px}
+.PL_5{padding-left:5px}
+.PL_10{padding-left:10px}
+.PT_10{padding-top:10px}
+.PR_10{padding-right:10px}
+.PB_10{padding-bottom:10px}
+/* link & action */
+a:link, a:visited, a:active{color:#333;text-decoration:none}
+a:hover{color:#555;text-decoration:underline}
+/* cursor */
+a, button, input[type="button"], input[type="submit"], input[type="reset"]{cursor:pointer}
+/* autoheight */
+.row{margin-bottom:-10000px;padding-bottom:10000px}
+/* Clear Fix */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block;*height:0;_overflow:hidden}
+/* Hide from IE Mac \*/
+.clearfix{display:block}
+/* End hide from IE Mac */
+/* end of clearfix */
+.logbg span{font-size:20px;font-weight:700;font-family:微软雅黑;color:#fff;padding-left:20px}

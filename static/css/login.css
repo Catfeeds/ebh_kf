@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+/* CSS Reset Start */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}
+body{ font:12px/1.5 'simsun','Tahoma',Arial,sans-serif,微软雅黑,宋体;}
+/*  */
+.clearfix:after{content:"\0020";height:0;display:block;clear:both;visibility:hidden}.clearfix{clear:both;zoom:1}
+.clearing { clear:both; height:0; line-height:0; overflow:hidden; font-size:1px;}
+/*  */
+/*  */
+/*  */
+a { color:#3D3D3D; text-decoration:none;}
+a:visited { color:#3D3D3D; text-decoration:none;}
+a:hover { color:#3095C6; text-decoration:underline;}
+.crmtop {
+	height:270px;
+	width:100%;
+	background:url(/static/images/ebh/toplanbg.jpg) repeat-x;
+}
+.dlengt {
+	width:960px;
+	margin:20px auto;
+}
+.lefet {
+	width:470px;
+	float:left;
+}
+.lefet img {
+	float:right;
+}
+.etert {
+	margin-bottom:15px;
+}
+.ristn {
+	float:left;
+	width:440px;
+	margin-left:50px;
+	margin-top:35px;
+	display:inline;
+}
+.drwek {
+	width:280px;
+	float:left;
+	height:42px;
+}
+.resizl {
+	float:left;
+	width:60px;
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+	color:#076fa2
+}
+.txtket {
+	border:solid 1px #659bca;
+	width:143px;
+	height:23px;
+	line-height:23px;
+	font-size:14px;
+	float:left;
+	padding-left:5px;
+}
+.drwek a.dzheng {
+	float:left;
+	margin-left:10px;
+}
+.drwek a.wtrbtn {
+	background:url(/static/images/ebh/denbtnry.jpg) no-repeat;
+	width:70px;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	float:left;
+	margin-right:10px;
+}
